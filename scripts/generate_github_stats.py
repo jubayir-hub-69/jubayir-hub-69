@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Fetch live GitHub stats and write Tokyo Night SVG cards.
 
-Designed to run every 6 hours from GitHub Actions. SVGs contain no
-timestamps, so identical stats produce identical files and no extra commit.
+Stars, commits, PRs, issues, followers, languages, total contributions, and
+longest streak refresh every 6 hours. Current streak follows GitHub's own
+contribution-day rules and timezone, so it only changes when GitHub's
+calendar would change it — not on the 6-hour clock.
 """
 from __future__ import annotations
 
@@ -15,10 +17,19 @@ import urllib.request
 from collections import defaultdict
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 USERNAME = "jubayir-hub-69"
 API = "https://api.github.com/graphql"
 OUT = Path(__file__).resolve().parent.parent / "stats"
+
+
+def github_today() -> date:
+    """GitHub contribution 'today' in the profile timezone (Dhaka, UTC+6)."""
+    try:
+        return datetime.now(ZoneInfo("Asia/Dhaka")).date()
+    except Exception:
+        return (datetime.now(timezone.utc) + timedelta(hours=6)).date()
 
 THEME = {
     "title": "#70a5fd",
@@ -199,6 +210,17 @@ def fetch() -> dict:
     }
 
 
+def _count_back(counts: dict[date, int], start: date) -> tuple[int, date, date]:
+    length = 0
+    cursor = start
+    start_day = start
+    while counts.get(cursor, 0) > 0:
+        length += 1
+        start_day = cursor
+        cursor = date.fromordinal(cursor.toordinal() - 1)
+    return length, start_day, start
+
+
 def streak_stats(days: list[tuple[date, int]]) -> dict:
     if not days:
         return {
@@ -211,9 +233,7 @@ def streak_stats(days: list[tuple[date, int]]) -> dict:
             "total": 0,
         }
 
-    # GitHub's calendar last day is "today" in the user's contribution timezone.
     counts = {day: count for day, count in days}
-    today = days[-1][0]
     total = sum(counts.values())
 
     longest = 0
@@ -235,16 +255,17 @@ def streak_stats(days: list[tuple[date, int]]) -> dict:
             run_start = None
         cursor = date.fromordinal(cursor.toordinal() + 1)
 
-    # Current streak: grace for an empty today so the streak isn't lost mid-day.
-    end = today if counts.get(today, 0) > 0 else date.fromordinal(today.toordinal() - 1)
-    current = 0
-    current_end = end if counts.get(end, 0) > 0 else None
-    current_start = None
-    probe = end
-    while counts.get(probe, 0) > 0:
-        current += 1
-        current_start = probe
-        probe = date.fromordinal(probe.toordinal() - 1)
+    # Current streak uses GitHub's contribution-day clock, not the 6-hour job.
+    # Days are in the profile timezone. An empty *today* does not break the
+    # streak until that calendar day is over — same as github.com.
+    today = github_today()
+    yesterday = today - timedelta(days=1)
+    if counts.get(today, 0) > 0:
+        current, current_start, current_end = _count_back(counts, today)
+    elif counts.get(yesterday, 0) > 0:
+        current, current_start, current_end = _count_back(counts, yesterday)
+    else:
+        current, current_start, current_end = 0, None, None
 
     return {
         "current": current,
@@ -413,10 +434,12 @@ def main() -> int:
     print(
         "stars={stars} commits={commits} prs={prs} issues={issues} "
         "contributed_to={contributed_to} followers={followers} "
-        "current_streak={current} longest_streak={longest} year_contrib={year}".format(
+        "current_streak={current} longest_streak={longest} year_contrib={year} "
+        "github_today={today}".format(
             current=streak["current"],
             longest=streak["longest"],
             year=streak["total"],
+            today=github_today().isoformat(),
             **stats,
         )
     )
