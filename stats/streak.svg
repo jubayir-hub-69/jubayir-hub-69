@@ -1,0 +1,25 @@
+<svg width="660" height="195" viewBox="0 0 660 195" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub Streak">
+  <style>
+    .label { font: 600 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #70a5fd; }
+    .num { font: 800 28px 'Segoe UI', Ubuntu, Sans-Serif; fill: #38bdae; }
+    .sub { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #565f89; }
+    .big { font: 800 36px 'Segoe UI', Ubuntu, Sans-Serif; fill: #bb9af7; }
+  </style>
+  <rect width="660" height="195" rx="8" fill="#1a1b27"/>
+  <g transform="translate(110,98)" text-anchor="middle">
+    <text class="num" y="0">591</text>
+    <text class="label" y="28">Total Contributions</text>
+    <text class="sub" y="48">Past year</text>
+  </g>
+  <g transform="translate(330,98)" text-anchor="middle">
+    <circle cx="0" cy="-8" r="46" fill="none" stroke="#bb9af7" stroke-width="3"/>
+    <text class="big" y="6">2</text>
+    <text class="label" y="58">Current Streak</text>
+    <text class="sub" y="76">Sep 08, 2026 — Sep 09, 2026</text>
+  </g>
+  <g transform="translate(550,98)" text-anchor="middle">
+    <text class="num" y="0">14</text>
+    <text class="label" y="28">Longest Streak</text>
+    <text class="sub" y="48">Jun 02, 2026 — Jun 15, 2026</text>
+  </g>
+</svg>

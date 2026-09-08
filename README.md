@@ -185,12 +185,12 @@ innovative Web3 projects
 
 <br/>
 
-<img src="https://github-stats-extended.vercel.app/api?username=jubayir-hub-69&show_icons=true&theme=tokyonight&hide_border=true&hide_rank=true&include_all_commits=true&cache_seconds=86400" alt="Jubayir's GitHub Stats" />
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=jubayir-hub-69&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" alt="Top Languages" />
+<img src="./stats/github-stats.svg" alt="Jubayir's GitHub Stats" />
+<img src="./stats/top-langs.svg" alt="Top Languages" />
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=jubayir-hub-69&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+<img src="./stats/streak.svg" alt="GitHub Streak" />
 
 </div>
 
