@@ -7,15 +7,15 @@
   </style>
   <rect width="660" height="195" rx="8" fill="#1a1b27"/>
   <g transform="translate(110,98)" text-anchor="middle">
-    <text class="num" y="0">591</text>
+    <text class="num" y="0">587</text>
     <text class="label" y="28">Total Contributions</text>
     <text class="sub" y="48">Past year</text>
   </g>
   <g transform="translate(330,98)" text-anchor="middle">
     <circle cx="0" cy="-8" r="46" fill="none" stroke="#bb9af7" stroke-width="3"/>
-    <text class="big" y="6">2</text>
+    <text class="big" y="6">1</text>
     <text class="label" y="58">Current Streak</text>
-    <text class="sub" y="76">Sep 08, 2026 — Sep 09, 2026</text>
+    <text class="sub" y="76">Sep 08, 2026 — Sep 08, 2026</text>
   </g>
   <g transform="translate(550,98)" text-anchor="middle">
     <text class="num" y="0">14</text>
