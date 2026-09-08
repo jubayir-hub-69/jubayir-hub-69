@@ -184,6 +184,8 @@ I also work as a Community Manager across projects — helping build, manage, an
 <img src="https://img.shields.io/badge/Codex-10B981?style=for-the-badge&labelColor=065F46" alt="Codex"/>
 <img src="https://img.shields.io/badge/Claude-F97316?style=for-the-badge&labelColor=9A3412" alt="Claude"/>
 <img src="https://img.shields.io/badge/Blockchain-22D3EE?style=for-the-badge&labelColor=0E7490" alt="Blockchain"/>
+<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&labelColor=02497A" alt="VS Code"/>
+<img src="https://img.shields.io/badge/Antigravity-3087FB?style=for-the-badge&labelColor=1D4ED8" alt="Antigravity"/>
 
 </div>
 
