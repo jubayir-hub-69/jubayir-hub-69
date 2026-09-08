@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=8B5CF6&height=140&section=header&animation=fadeIn" width="100%" alt="header wave"/>
+  <img src="./banner.svg" width="100%" alt="Dark purple-pink neon coding workspace"/>
 </div>
 
 <div align="center">
@@ -68,45 +68,96 @@ I also work as a Community Manager across projects — helping build, manage, an
 
 <br/>
 
-<table>
+<table width="100%">
   <tr>
-    <td align="center" width="50%" valign="top">
-      <br/>
-      <h3>💻 Web3 Development</h3>
-      <p>
-        Production dApps, wallet flows, and cross-chain product surfaces with<br/>
-        <strong>Grok Build</strong>, <strong>Codex</strong>, <strong>Claude</strong>, React, Next.js, and Solidity
-      </p>
-      <br/>
+    <td width="50%" valign="top">
+      <table width="100%">
+        <tr>
+          <td width="6" bgcolor="#8B5CF6"></td>
+          <td width="16"></td>
+          <td>
+            <br/>
+            <sub>01</sub>
+            <h3>💻&nbsp;&nbsp;Web3 Development</h3>
+            <p>
+              Production dApps, wallet flows, and cross-chain product surfaces with<br/>
+              <strong>Grok Build</strong>, <strong>Codex</strong>, <strong>Claude</strong>, React, Next.js, and Solidity
+            </p>
+            <p>
+              <code>Grok Build</code>&nbsp;&nbsp;<code>Codex</code>&nbsp;&nbsp;<code>Claude</code>&nbsp;&nbsp;<code>React</code>&nbsp;&nbsp;<code>Next.js</code>&nbsp;&nbsp;<code>Solidity</code>
+            </p>
+            <br/>
+          </td>
+        </tr>
+      </table>
     </td>
-    <td align="center" width="50%" valign="top">
-      <br/>
-      <h3>🛡️ Community Moderation</h3>
-      <p>
-        Discord health for top-tier servers — keeping communities<br/>
-        <strong>safe</strong>, <strong>organized</strong>, and <strong>high-signal</strong>
-      </p>
-      <br/>
+    <td width="50%" valign="top">
+      <table width="100%">
+        <tr>
+          <td width="6" bgcolor="#EC4899"></td>
+          <td width="16"></td>
+          <td>
+            <br/>
+            <sub>02</sub>
+            <h3>🛡️&nbsp;&nbsp;Community Moderation</h3>
+            <p>
+              Discord health for top-tier servers — keeping communities<br/>
+              <strong>safe</strong>, <strong>organized</strong>, and <strong>high-signal</strong>
+            </p>
+            <p>
+              <code>Safe</code>&nbsp;&nbsp;<code>Organized</code>&nbsp;&nbsp;<code>High-signal</code>
+            </p>
+            <br/>
+          </td>
+        </tr>
+      </table>
     </td>
   </tr>
   <tr>
-    <td align="center" width="50%" valign="top">
-      <br/>
-      <h3>📣 Crypto Marketing</h3>
-      <p>
-        Brand rep, ambassadorship, airdrop campaigns,<br/>
-        contests, and ecosystem growth
-      </p>
-      <br/>
+    <td colspan="2" height="12"></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <table width="100%">
+        <tr>
+          <td width="6" bgcolor="#A78BFA"></td>
+          <td width="16"></td>
+          <td>
+            <br/>
+            <sub>03</sub>
+            <h3>📣&nbsp;&nbsp;Crypto Marketing</h3>
+            <p>
+              Brand rep, ambassadorship, airdrop campaigns,<br/>
+              contests, and ecosystem growth
+            </p>
+            <p>
+              <code>Brand Rep</code>&nbsp;&nbsp;<code>Ambassadorship</code>&nbsp;&nbsp;<code>Airdrops</code>&nbsp;&nbsp;<code>Contests</code>
+            </p>
+            <br/>
+          </td>
+        </tr>
+      </table>
     </td>
-    <td align="center" width="50%" valign="top">
-      <br/>
-      <h3>🤝 Community Management</h3>
-      <p>
-        Building, managing, and engaging communities around<br/>
-        innovative Web3 projects
-      </p>
-      <br/>
+    <td width="50%" valign="top">
+      <table width="100%">
+        <tr>
+          <td width="6" bgcolor="#F472B6"></td>
+          <td width="16"></td>
+          <td>
+            <br/>
+            <sub>04</sub>
+            <h3>🤝&nbsp;&nbsp;Community Management</h3>
+            <p>
+              Building, managing, and engaging communities around<br/>
+              innovative Web3 projects
+            </p>
+            <p>
+              <code>Build</code>&nbsp;&nbsp;<code>Manage</code>&nbsp;&nbsp;<code>Engage</code>
+            </p>
+            <br/>
+          </td>
+        </tr>
+      </table>
     </td>
   </tr>
 </table>
@@ -133,8 +184,6 @@ I also work as a Community Manager across projects — helping build, manage, an
 <img src="https://img.shields.io/badge/Codex-10B981?style=for-the-badge&labelColor=065F46" alt="Codex"/>
 <img src="https://img.shields.io/badge/Claude-F97316?style=for-the-badge&labelColor=9A3412" alt="Claude"/>
 <img src="https://img.shields.io/badge/Blockchain-22D3EE?style=for-the-badge&labelColor=0E7490" alt="Blockchain"/>
-<img src="https://img.shields.io/badge/Aptos-2DD4BF?style=for-the-badge&labelColor=0F766E" alt="Aptos"/>
-<img src="https://img.shields.io/badge/GenLayer-8B5CF6?style=for-the-badge&labelColor=5B21B6" alt="GenLayer"/>
 
 </div>
 
