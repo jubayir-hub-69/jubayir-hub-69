@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./banner.svg" width="100%" alt="Dark purple-pink neon coding workspace"/>
+  <img src="./banner.gif" width="100%" alt="Pixel-art programmer cat typing in a neon coding workspace"/>
 </div>
 
 <div align="center">
