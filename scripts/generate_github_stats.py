@@ -68,10 +68,22 @@ def graphql(query: str, variables: dict) -> dict:
         with urllib.request.urlopen(req, timeout=60) as resp:
             payload = json.loads(resp.read().decode())
     except urllib.error.HTTPError as exc:
-        detail = exc.read().decode("utf-8", "replace")
-        raise SystemExit(f"GitHub GraphQL HTTP {exc.code}: {detail}") from exc
-    if payload.get("errors"):
-        raise SystemExit(f"GitHub GraphQL errors: {payload['errors']}")
+        raw = exc.read().decode("utf-8", "replace")
+        hint = f"HTTP {exc.code}"
+        try:
+            parsed = json.loads(raw)
+            if isinstance(parsed, dict) and parsed.get("message"):
+                hint = f"HTTP {exc.code}: {parsed['message']}"
+        except json.JSONDecodeError:
+            pass
+        raise SystemExit(f"GitHub GraphQL request failed ({hint})") from None
+    errors = payload.get("errors") or []
+    if errors:
+        messages = []
+        for err in errors:
+            if isinstance(err, dict) and err.get("message"):
+                messages.append(str(err["message"]))
+        raise SystemExit("GitHub GraphQL errors: " + "; ".join(messages or ["unknown error"]))
     return payload["data"]
 
 
@@ -92,6 +104,7 @@ query ($login: String!, $from: DateTime!, $to: DateTime!) {
       first: 100
       ownerAffiliations: OWNER
       isFork: false
+      privacy: PUBLIC
       orderBy: { field: STARGAZERS, direction: DESC }
     ) {
       pageInfo { hasNextPage endCursor }
@@ -120,6 +133,7 @@ query ($login: String!, $cursor: String!) {
       after: $cursor
       ownerAffiliations: OWNER
       isFork: false
+      privacy: PUBLIC
       orderBy: { field: STARGAZERS, direction: DESC }
     ) {
       pageInfo { hasNextPage endCursor }
