@@ -68,98 +68,80 @@ I also work as a Community Manager across projects — helping build, manage, an
 
 <br/>
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <table width="100%">
-        <tr>
-          <td width="6" bgcolor="#8B5CF6"></td>
-          <td width="16"></td>
-          <td>
-            <br/>
-            <sub>01</sub>
-            <h3>💻&nbsp;&nbsp;Web3 Development</h3>
-            <p>
-              Production dApps, wallet flows, and cross-chain product surfaces with<br/>
-              <strong>Grok Build</strong>, <strong>Codex</strong>, <strong>Claude</strong>, React, Next.js, and Solidity
-            </p>
-            <p>
-              <code>Grok Build</code>&nbsp;&nbsp;<code>Codex</code>&nbsp;&nbsp;<code>Claude</code>&nbsp;&nbsp;<code>React</code>&nbsp;&nbsp;<code>Next.js</code>&nbsp;&nbsp;<code>Solidity</code>
-            </p>
-            <br/>
-          </td>
-        </tr>
-      </table>
-    </td>
-    <td width="50%" valign="top">
-      <table width="100%">
-        <tr>
-          <td width="6" bgcolor="#EC4899"></td>
-          <td width="16"></td>
-          <td>
-            <br/>
-            <sub>02</sub>
-            <h3>🛡️&nbsp;&nbsp;Community Moderation</h3>
-            <p>
-              Discord health for top-tier servers — keeping communities<br/>
-              <strong>safe</strong>, <strong>organized</strong>, and <strong>high-signal</strong>
-            </p>
-            <p>
-              <code>Safe</code>&nbsp;&nbsp;<code>Organized</code>&nbsp;&nbsp;<code>High-signal</code>
-            </p>
-            <br/>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" height="12"></td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <table width="100%">
-        <tr>
-          <td width="6" bgcolor="#A78BFA"></td>
-          <td width="16"></td>
-          <td>
-            <br/>
-            <sub>03</sub>
-            <h3>📣&nbsp;&nbsp;Crypto Marketing</h3>
-            <p>
-              Brand rep, ambassadorship, airdrop campaigns,<br/>
-              contests, and ecosystem growth
-            </p>
-            <p>
-              <code>Brand Rep</code>&nbsp;&nbsp;<code>Ambassadorship</code>&nbsp;&nbsp;<code>Airdrops</code>&nbsp;&nbsp;<code>Contests</code>
-            </p>
-            <br/>
-          </td>
-        </tr>
-      </table>
-    </td>
-    <td width="50%" valign="top">
-      <table width="100%">
-        <tr>
-          <td width="6" bgcolor="#F472B6"></td>
-          <td width="16"></td>
-          <td>
-            <br/>
-            <sub>04</sub>
-            <h3>🤝&nbsp;&nbsp;Community Management</h3>
-            <p>
-              Building, managing, and engaging communities around<br/>
-              innovative Web3 projects
-            </p>
-            <p>
-              <code>Build</code>&nbsp;&nbsp;<code>Manage</code>&nbsp;&nbsp;<code>Engage</code>
-            </p>
-            <br/>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
+<table>
+<tr>
+<td width="8" bgcolor="#8B5CF6">&nbsp;</td>
+<td>
+<br/>
+<sub>01</sub>
+<h3>💻&nbsp;&nbsp;Web3 Development</h3>
+<p>
+Production dApps, wallet flows, and cross-chain product surfaces with<br/>
+<strong>Grok Build</strong>, <strong>Codex</strong>, <strong>Claude</strong>, React, Next.js, and Solidity
+</p>
+<p>
+<code>Grok Build</code>&nbsp;&nbsp;<code>Codex</code>&nbsp;&nbsp;<code>Claude</code>&nbsp;&nbsp;<code>React</code>&nbsp;&nbsp;<code>Next.js</code>&nbsp;&nbsp;<code>Solidity</code>
+</p>
+<br/>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="8" bgcolor="#EC4899">&nbsp;</td>
+<td>
+<br/>
+<sub>02</sub>
+<h3>🛡️&nbsp;&nbsp;Community Moderation</h3>
+<p>
+Discord health for top-tier servers — keeping communities<br/>
+<strong>safe</strong>, <strong>organized</strong>, and <strong>high-signal</strong>
+</p>
+<p>
+<code>Safe</code>&nbsp;&nbsp;<code>Organized</code>&nbsp;&nbsp;<code>High-signal</code>
+</p>
+<br/>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="8" bgcolor="#A78BFA">&nbsp;</td>
+<td>
+<br/>
+<sub>03</sub>
+<h3>📣&nbsp;&nbsp;Crypto Marketing</h3>
+<p>
+Brand rep, ambassadorship, airdrop campaigns,<br/>
+contests, and ecosystem growth
+</p>
+<p>
+<code>Brand Rep</code>&nbsp;&nbsp;<code>Ambassadorship</code>&nbsp;&nbsp;<code>Airdrops</code>&nbsp;&nbsp;<code>Contests</code>
+</p>
+<br/>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="8" bgcolor="#F472B6">&nbsp;</td>
+<td>
+<br/>
+<sub>04</sub>
+<h3>🤝&nbsp;&nbsp;Community Management</h3>
+<p>
+Building, managing, and engaging communities around<br/>
+innovative Web3 projects
+</p>
+<p>
+<code>Build</code>&nbsp;&nbsp;<code>Manage</code>&nbsp;&nbsp;<code>Engage</code>
+</p>
+<br/>
+</td>
+</tr>
 </table>
 
 <br/>
