@@ -13,7 +13,7 @@ import sys
 import urllib.error
 import urllib.request
 from collections import defaultdict
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 USERNAME = "jubayir-hub-69"
@@ -65,7 +65,7 @@ def graphql(query: str, variables: dict) -> dict:
 
 
 USER_QUERY = """
-query ($login: String!) {
+query ($login: String!, $from: DateTime!, $to: DateTime!) {
   user(login: $login) {
     name
     login
@@ -91,7 +91,7 @@ query ($login: String!) {
         }
       }
     }
-    contributionsCollection {
+    contributionsCollection(from: $from, to: $to) {
       contributionCalendar {
         totalContributions
         weeks { contributionDays { date contributionCount } }
@@ -141,7 +141,14 @@ def iso(dt: datetime) -> str:
 
 def fetch() -> dict:
     now = datetime.now(timezone.utc)
-    data = graphql(USER_QUERY, {"login": USERNAME})["user"]
+    data = graphql(
+        USER_QUERY,
+        {
+            "login": USERNAME,
+            "from": iso(now - timedelta(days=365)),
+            "to": iso(now + timedelta(days=1)),
+        },
+    )["user"]
 
     repos = list(data["repositories"]["nodes"])
     page = data["repositories"]["pageInfo"]
