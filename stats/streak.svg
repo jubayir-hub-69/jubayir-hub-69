@@ -13,9 +13,9 @@
   </g>
   <g transform="translate(330,98)" text-anchor="middle">
     <circle cx="0" cy="-8" r="46" fill="none" stroke="#bb9af7" stroke-width="3"/>
-    <text class="big" y="6">2</text>
+    <text class="big" y="6">0</text>
     <text class="label" y="58">Current Streak</text>
-    <text class="sub" y="76">Sep 12, 2026 — Sep 13, 2026</text>
+    <text class="sub" y="76">No active streak</text>
   </g>
   <g transform="translate(550,98)" text-anchor="middle">
     <text class="num" y="0">14</text>
