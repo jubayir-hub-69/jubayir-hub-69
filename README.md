@@ -185,7 +185,7 @@ innovative Web3 projects
 
 <br/>
 
-<img src="./stats/github-stats.svg" alt="Jubayir's GitHub Stats" />
+<img src="https://github-stats-extended.vercel.app/api?username=jubayir-hub-69&show_icons=true&theme=tokyonight&hide_border=true&hide_rank=false&rank_icon=default&include_all_commits=true&count_private=true&disable_animations=true" alt="Jubayir's GitHub Stats" />
 <img src="./stats/top-langs.svg" alt="Top Languages" />
 
 <br/>
