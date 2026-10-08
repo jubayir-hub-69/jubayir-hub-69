@@ -6,24 +6,15 @@
 
 # 👋 Hi, I'm Jubayir Haider
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=640&lines=Web3+Developer;Community+Builder;Crypto+Marketer;Building+from+Dhaka%2C+Bangladesh" alt="Typing subtitle"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=720&lines=Web3+%26+full-stack+developer;Websites%2C+dApps%2C+bots%2C+and+tools;Dhaka%2C+Bangladesh" alt="Web3 and full-stack developer in Dhaka"/>
 
 <p>
-  <em>Building Web3 ecosystems & decentralized communities from Dhaka, Bangladesh.<br/>
-  Experienced crypto professional shipping dApps, moderating communities, and growing Web3 brands.</em>
+  I build websites, web apps, dApps, and Telegram bots from Dhaka, Bangladesh.
 </p>
 
 <br/>
 
-[![X](https://img.shields.io/badge/X-%40alr80171-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=0D1117)](https://x.com/alr80171)
-[![Telegram](https://img.shields.io/badge/Telegram-%40JUBAYIR69-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0D1117)](https://t.me/JUBAYIR69)
-[![Discord](https://img.shields.io/badge/Discord-JUBAYIR69-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0D1117)](https://discord.com/users/775330417414635530)
-[![Portfolio](https://img.shields.io/badge/Portfolio-jubayir--69.vercel.app-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117)](https://jubayir-69.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-jubayir--hub--69-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117)](https://github.com/jubayir-hub-69)
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=jubayir-hub-69&color=8B5CF6&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=jubayir-hub-69&color=8B5CF6&style=flat&label=Profile+views" alt="Profile views"/>
 
 </div>
 
@@ -43,14 +34,14 @@
 
 <br/>
 
-I'm **JUBAYIR69** — an experienced Web3 developer, community builder, and crypto marketer. I build decentralized applications across multiple networks using AI-assisted vibe coding. From moderating top-tier Discords to architecting cross-chain ecosystems, I am a **community-first builder**.
+I'm **Jubayir Haider**, a developer based in **Dhaka, Bangladesh**. I build websites, web apps, dApps, and Telegram bots, along with the small tools around them. On the Web3 side, that usually means wallet sign-in and the interface in front of a smart contract.
 
-I also work as a Community Manager across projects — helping build, manage, and engage their communities through airdrop campaigns, ambassador support, contest creation, and day-to-day growth.
+I also moderate Discord communities and help with day-to-day community management for projects I work with.
 
 <br/>
 
-- 📍 Based in **Dhaka, Bangladesh**
-- 💬 Open for collabs on [X](https://x.com/alr80171) and [Discord](https://discord.com/users/775330417414635530)
+- 📍 **Dhaka, Bangladesh**
+- 🤝 Open to freelance projects, collaborations, and remote roles
 
 <br/>
 
@@ -74,13 +65,12 @@ I also work as a Community Manager across projects — helping build, manage, an
 <td>
 <br/>
 <sub>01</sub>
-<h3>💻&nbsp;&nbsp;Web3 Development</h3>
+<h3>💻&nbsp;&nbsp;Web Development</h3>
 <p>
-Production dApps, wallet flows, and cross-chain product surfaces with<br/>
-<strong>Grok Build</strong>, <strong>Codex</strong>, <strong>Claude</strong>, React, Next.js, and Solidity
+Company sites, portfolio sites, and web app interfaces.
 </p>
 <p>
-<code>Grok Build</code>&nbsp;&nbsp;<code>Codex</code>&nbsp;&nbsp;<code>Claude</code>&nbsp;&nbsp;<code>React</code>&nbsp;&nbsp;<code>Next.js</code>&nbsp;&nbsp;<code>Solidity</code>
+<code>React</code>&nbsp;&nbsp;<code>Next.js</code>&nbsp;&nbsp;<code>TypeScript</code>
 </p>
 <br/>
 </td>
@@ -93,13 +83,12 @@ Production dApps, wallet flows, and cross-chain product surfaces with<br/>
 <td>
 <br/>
 <sub>02</sub>
-<h3>🛡️&nbsp;&nbsp;Community Moderation</h3>
+<h3>🔷&nbsp;&nbsp;Web3 Products</h3>
 <p>
-Discord health for top-tier servers — keeping communities<br/>
-<strong>safe</strong>, <strong>organized</strong>, and <strong>high-signal</strong>
+dApps with wallet sign-in, and the screens in front of a smart contract.
 </p>
 <p>
-<code>Safe</code>&nbsp;&nbsp;<code>Organized</code>&nbsp;&nbsp;<code>High-signal</code>
+<code>Solidity</code>&nbsp;&nbsp;<code>React</code>&nbsp;&nbsp;<code>Next.js</code>
 </p>
 <br/>
 </td>
@@ -112,13 +101,12 @@ Discord health for top-tier servers — keeping communities<br/>
 <td>
 <br/>
 <sub>03</sub>
-<h3>📣&nbsp;&nbsp;Crypto Marketing</h3>
+<h3>🤖&nbsp;&nbsp;Bots & Automation</h3>
 <p>
-Brand rep, ambassadorship, airdrop campaigns,<br/>
-contests, and ecosystem growth
+Telegram bots and small scripts that take repetitive work off a team's plate.
 </p>
 <p>
-<code>Brand Rep</code>&nbsp;&nbsp;<code>Ambassadorship</code>&nbsp;&nbsp;<code>Airdrops</code>&nbsp;&nbsp;<code>Contests</code>
+<code>Python</code>&nbsp;&nbsp;<code>Node.js</code>&nbsp;&nbsp;<code>Telegram</code>
 </p>
 <br/>
 </td>
@@ -131,13 +119,12 @@ contests, and ecosystem growth
 <td>
 <br/>
 <sub>04</sub>
-<h3>🤝&nbsp;&nbsp;Community Management</h3>
+<h3>🛡️&nbsp;&nbsp;Community Support</h3>
 <p>
-Building, managing, and engaging communities around<br/>
-innovative Web3 projects
+Discord moderation and day-to-day community management for projects I work with.
 </p>
 <p>
-<code>Build</code>&nbsp;&nbsp;<code>Manage</code>&nbsp;&nbsp;<code>Engage</code>
+<code>Discord</code>&nbsp;&nbsp;<code>Moderation</code>
 </p>
 <br/>
 </td>
@@ -158,16 +145,25 @@ innovative Web3 projects
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,html,solidity,nodejs,python,git,github,vercel" alt="Tech stack"/>
+**Languages & frameworks**
+
+<br/>
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,nodejs,python,solidity" alt="Languages and frameworks: React, Next.js, TypeScript, JavaScript, Node.js, Python, Solidity"/>
+
+<br/><br/>
+
+**Workflow**
+
+<br/>
+
+<img src="https://skillicons.dev/icons?i=git,github,vercel" alt="Workflow: Git, GitHub, Vercel"/>
 
 <br/><br/>
 
 <img src="https://img.shields.io/badge/Grok_Build-000000?style=for-the-badge&labelColor=111111" alt="Grok Build"/>
 <img src="https://img.shields.io/badge/Codex-10B981?style=for-the-badge&labelColor=065F46" alt="Codex"/>
 <img src="https://img.shields.io/badge/Claude-F97316?style=for-the-badge&labelColor=9A3412" alt="Claude"/>
-<img src="https://img.shields.io/badge/Blockchain-22D3EE?style=for-the-badge&labelColor=0E7490" alt="Blockchain"/>
-<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&labelColor=02497A" alt="VS Code"/>
-<img src="https://img.shields.io/badge/Antigravity-3087FB?style=for-the-badge&labelColor=1D4ED8" alt="Antigravity"/>
 
 </div>
 
@@ -185,12 +181,12 @@ innovative Web3 projects
 
 <br/>
 
-<img src="https://github-stats-extended.vercel.app/api?username=jubayir-hub-69&show_icons=true&theme=tokyonight&hide_border=true&hide_rank=false&rank_icon=default&include_all_commits=true&count_private=true&disable_animations=true" alt="Jubayir's GitHub Stats" />
-<img src="./stats/top-langs.svg" alt="Top Languages" />
+<img width="450" src="https://github-stats-extended.vercel.app/api?username=jubayir-hub-69&show_icons=true&theme=tokyonight&hide_border=true&hide_rank=false&rank_icon=default&include_all_commits=true&count_private=true&disable_animations=true" alt="Jubayir Haider's GitHub stats" />
+<img width="320" src="./stats/top-langs.svg" alt="Top languages" />
 
-<br/>
+<br/><br/>
 
-<img src="./stats/streak.svg" alt="GitHub Streak" />
+<img width="520" src="./stats/streak.svg" alt="GitHub streak" />
 
 </div>
 
@@ -208,20 +204,20 @@ innovative Web3 projects
 
 <br/>
 
-[![X](https://img.shields.io/badge/X-%40alr80171-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=0D1117)](https://x.com/alr80171)
-[![Telegram](https://img.shields.io/badge/Telegram-%40JUBAYIR69-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0D1117)](https://t.me/JUBAYIR69)
 [![Email](https://img.shields.io/badge/Email-jubayirhaider56%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117)](mailto:jubayirhaider56@gmail.com)
-[![Discord](https://img.shields.io/badge/Discord-Message_JUBAYIR69-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0D1117)](https://discord.com/users/775330417414635530)
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_My_Site-8B5CF6?style=for-the-badge&labelColor=0D1117)](https://jubayir-69.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Jubayir_Haider-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117)](https://www.linkedin.com/in/jubayir-haider-302aab372)
+[![Portfolio](https://img.shields.io/badge/Portfolio-jubayir--69.vercel.app-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117)](https://jubayir-69.vercel.app/)
 
 <br/><br/>
 
-**Open for collabs** — let's build the next Web3 ecosystem together.
+[![Discord](https://img.shields.io/badge/Discord-JUBAYIR69-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0D1117)](https://discord.com/users/775330417414635530)
+[![Telegram](https://img.shields.io/badge/Telegram-%40JUBAYIR69-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0D1117)](https://t.me/JUBAYIR69)
+[![X](https://img.shields.io/badge/X-%40alr80171-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=0D1117)](https://x.com/alr80171)
 
-<br/>
+<br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&duration=4000&pause=1200&color=C4B5FD&center=true&vCenter=true&width=720&lines=From+moderating+top-tier+Discords+to+architecting+cross-chain+ecosystems;I+am+a+community-first+builder." alt="Community-first builder quote"/>
+Open to freelance projects, collaborations, and remote roles.<br/>
+Email is the best way to start.
 
 </div>
 
